@@ -3,7 +3,7 @@ package com.example.demo.model;
 import javax.persistence.*;
 
 @Entity
-@Table
+@Table(name="tbl_faculty_teaching_subject")
 public class FacultyTeachingSubject {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

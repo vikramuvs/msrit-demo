@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table
+@Table(name="tbl_latest_events")
 public class LatestEvents {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
